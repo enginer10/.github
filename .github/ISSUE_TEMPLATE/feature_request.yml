@@ -12,8 +12,7 @@ body:
     attributes:
       label: Describe the solution you'd like
       placeholder: It would be great if...
-      validations:
-        required: true
+      required: true
   - type: textarea
     id: alternatives
     attributes:
