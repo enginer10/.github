@@ -1,1 +1,5 @@
-@lethisa
+# CODEOWNERS applies org-wide when a repo has no CODEOWNERS of its own.
+# Syntax: https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+*       @org/platform-team
+docs/** @org/tech-writers
+.github/** @org/devops

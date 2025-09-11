@@ -1,0 +1,20 @@
+    name: Lint community files
+    on:
+      push:
+        paths:
+          - '.github/**'
+      pull_request:
+        paths:
+          - '.github/**'
+    jobs:
+      noop:
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v4
+          - name: Validate YAML
+            run: |
+              find .github -name '*.yml' -o -name '*.yaml' | xargs -I{} bash -c "python - <<'PY'
+import sys, yaml
+print('Valid:', '{}')
+yaml.safe_load(open('{}'))
+PY"
