@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-Please email security@example.org with steps to reproduce. Do not open public issues for security reports.
+Please email <security@example.org> with steps to reproduce. Do not open public issues for security reports.
 
 ## Supported Versions
 
