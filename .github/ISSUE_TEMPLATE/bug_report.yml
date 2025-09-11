@@ -15,9 +15,10 @@
         attributes:
           label: Steps to reproduce
           description: Provide steps to reproduce.
-          placeholder: 1. Go to '...'
-2. Click on '...'
-3. See error
+          placeholder: 
+            1. Go to '...'
+            2. Click on '...'
+            3. See error
         validations:
           required: true
       - type: input
