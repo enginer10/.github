@@ -1,0 +1,13 @@
+{
+    "name": "Node Building Workflow",
+    "description": "enginer10 Organization CI starter workflow for node",
+    "iconName": "octicon home",
+    "categories": [
+        "Webpack",
+        "JavaScript",
+        "continuous-integration"
+    ],
+    "filePatterns": [
+        "starter.md"
+    ]
+}
